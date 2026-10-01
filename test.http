@@ -1,0 +1,10 @@
+POST http://localhost:8080/api/jobs/check
+Content-Type: application/json
+
+{
+  "jobTitle": "Software Developer",
+  "companyName": "ABC Tech",
+  "jobDescription": "Pay registration fee urgently. Guaranteed job. Apply immediately.",
+  "recruiterDetails": "hr@abctech.com",
+  "applicationUrl": "https://abctech.com/jobs"
+}
