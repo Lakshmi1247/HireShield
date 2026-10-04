@@ -20,7 +20,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "http://localhost:8080/api/jobs/check",
+        "https://hireshield-c326.onrender.com/api/jobs/check",
         {
           method: "POST",
           headers: {
@@ -54,7 +54,7 @@ function App() {
   const loadHistory = async () => {
     try {
       const response = await fetch(
-        "http://localhost:8080/api/jobs/history"
+        "https://hireshield-c326.onrender.com/api/jobs/history"
       );
 
       if (!response.ok) {
