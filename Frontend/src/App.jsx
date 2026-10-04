@@ -89,9 +89,10 @@ function App() {
 
       <header className="navbar">
 
-        <div className="logo">
-          🛡️ HireShield
-        </div>
+      <div className="logo">
+        <img src="/favicon.png" alt="HireShield" />
+        HireShield
+      </div>
 
         <div className="nav-right">
 
